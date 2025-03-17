@@ -10,15 +10,29 @@
 
 // const area = ((base + base2) * height) / 2;
 
+
+// ============= Task 3 =============//
+
 let number1 = prompt("Enter first number :");
 let number2 = prompt("Enter second number :");
 
 number1 = parseInt(number1, 10);
 number2 = parseInt(number2, 10);
 
-let sum, sub;
+let sum, sub, mul, division, modulus;
 sum = number1 + number2;
 sub = number1 - number2;
-document.write("Addition  = " + sum +  "<br/>");
+mul = number1 * number2;
+division = number1 / number2;
+modulus = number1 % number2;
 
-document.write("substraction is = " + sub);
+document.write("Addition  = " + sum + "<br/>");
+
+document.write("substraction is = " + sub + "<br/>");
+
+document.write("Multiplication  is = " + mul + "<br/>");
+
+document.write("Division is = " + division + "<br/>");
+
+document.write("Modulus is = " + modulus + "<br/>");
+
