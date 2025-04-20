@@ -36,6 +36,15 @@ const balance = income - totalExpanse;
 
 const savings = balance * 0.2;
 
+var finalStatus = "";
+
+if (savings >= 1000) {
+  finalStatus = "Exccilent! you are saving very well!";
+} else if (savings >= 500) {
+  finalStatus = "Good! you have a decent saivings ammount";
+} else if (savings >= 100) {
+  finalStatus = "Needs improvement . considor redusing expense";
+} else finalStatus = "critical you ar saving are too low";
 console.log("personal budget tracker app");
 console.log("user name : " + userName);
 console.log("Total income $ " + income);
@@ -44,6 +53,8 @@ console.log("Tax Deducated $ " + tax);
 console.log("Net income $" + netIncome);
 console.log("remaining balance $" + balance);
 console.log("Savings (20% of balance) $" + savings);
+console.log (finalStatus)
+
 
 var number1 = 20;
 var number2 = 30;
@@ -55,14 +66,8 @@ console.log(number1 == number2);
 
 var number = 5;
 
-if(number % 2 == 0);
+if (number % 2 == 0);
 console.log("Evenz");
 
-if( number % 2 != 0);
+if (number % 2 != 0);
 console.log("Odd");
-
-
-
-
-
-
