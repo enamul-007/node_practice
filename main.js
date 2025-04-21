@@ -67,7 +67,7 @@ console.log(number1 == number2);
 var number = 5;
 
 if (number % 2 == 0);
-console.log("Evenz");
+console.log("Evenz"); 
 
 if (number % 2 != 0);
 console.log("Odd");
