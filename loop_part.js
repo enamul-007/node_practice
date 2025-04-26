@@ -7,9 +7,9 @@
 // }
 // console.log(sum)
 
-for(var x = 1; x <=5 ; x++){
-    var number1 = parseInt(prompt('enter your number'))
-    var number2 = parseInt(prompt('enter your second number'))
-    var sum = number1+number2
-    console.log('result : '+sum)
-}
+// for(var x = 1; x <=5 ; x++){
+//     var number1 = parseInt(prompt('enter your number'))
+//     var number2 = parseInt(prompt('enter your second number'))
+//     var sum = number1+number2
+//     console.log('result : '+sum)
+// }
