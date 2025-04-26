@@ -15,3 +15,13 @@ do {
   console.log("Hello bhia " + count);
   count++;
 } while (count <= 5);
+
+//  break part add
+
+for (var i = 1; i <= 100; i++) {
+  if (i == 10) {
+    break;
+  }
+  console.log(" " + i);
+}
+console.log("end");
