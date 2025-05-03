@@ -5,3 +5,12 @@ function addition(number1, number2) {
 }
 
 addition(6, 9);
+
+function substraction(x, y) {
+  var result = x - y;
+
+
+  console.log("sub = " + result)
+}
+
+substraction(54,50)
